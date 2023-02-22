@@ -1,0 +1,20 @@
+{
+  "name": "cucumber_playwright_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "@playwright/test": "^1.30.0"
+  },
+  "dependencies": {
+    "cucumber-pretty": "^6.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
