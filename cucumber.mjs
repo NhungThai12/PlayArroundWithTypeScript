@@ -7,12 +7,12 @@ const getWorldParams = () => {
 };
 
 const config = {
-   requireModule: ['ts-node/register'],
-  require: ['steps/*.ts'],
+  requireModule: ['ts-node/register'],
+  require: ['src/**/*.ts'],
   format: [
     // 'message:e2e/reports/cucumber-report.ndjson',
-    'json:reports/cucumber-report.json',
-    'html:reports/report.html',
+    // 'json:reports/cucumber-report.json',
+    // 'html:reports/report.html',
     'summary',
     'progress-bar',
   ],
